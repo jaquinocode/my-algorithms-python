@@ -1,0 +1,21 @@
+def sale_hotdogs(customers):
+    #psuedo
+    just calculate total price (all_customers*a_price)
+    w/ a little caveat, based on how many customers I get, the price for everybody 
+    will be different
+
+def sale_hotdogs(customers):
+    #price changes depending on customers val
+    price = 100 if customers<5 else 95 if 5<=customers<10 else 90
+
+    return customers*price
+
+def blah():
+    for stu_answer, correct_answer in zip(stu_answer, correct_answer):
+        if stu_answer != correct_answer:
+            return False
+    return True
+
+zip uses many args instead of iterators as arguments
+    returns generator!!!! :DDDD
+min/max can do both
